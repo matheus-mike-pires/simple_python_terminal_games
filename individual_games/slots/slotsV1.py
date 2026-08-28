@@ -12,17 +12,8 @@ def main(money):
     print('Python Cassino')
     print('*******************')
     print()
-    print('1. slots')
-    print('2. blackjack')
-    print('3. store')
-    print()
-    opt = ('1','2','3')
-    what_game = input('type the number of the game you want to acess: ')
-    if what_game in opt:
-        if what_game == '1':
-            run_slots(money)
-        if what_game =='2':
-            pass
+    wait_time = input('Press any key to play ')
+    run_slots(money)
             
     
 
