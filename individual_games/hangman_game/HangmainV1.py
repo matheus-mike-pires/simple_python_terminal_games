@@ -1,4 +1,4 @@
-#To play the hangman game, keep the hangman_words in the same directory. 'from hangman_words import words' should do the job. Also, feel free to add words to the hangman_words
+#To play the hangman game, keep the hangman_words.py in the same directory as HangmainV1.py. 'from hangman_words import words' should do the job. Also, feel free to add words to the hangman_words
 
 import random as rd
 
